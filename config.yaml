@@ -1,0 +1,15 @@
+rsahost:
+  - host: 127.0.0.1
+    user: test
+    filepath: ./id.rsa
+    port: 22
+  - host: 127.0.0.1
+    user: test
+    filepath: ./test.rsa
+    port: 22
+
+passwdhost:
+  - host: 127.0.0.1
+    user: test
+    passwd: test
+    port: 22
